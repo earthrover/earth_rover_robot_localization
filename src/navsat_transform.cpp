@@ -63,7 +63,7 @@ namespace RobotLocalization
     base_link_frame_id_("base_link"),
     gps_frame_id_(""),
     utm_zone_(0),
-    world_frame_id_("odom"),
+    world_frame_id_("map"),
     transform_timeout_(ros::Duration(0)),
     tf_listener_(tf_buffer_)
   {
